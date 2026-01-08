@@ -21,4 +21,5 @@ jobs:
         distribution: 'temurin'
 
     - name: Build with Maven
+      working-directory: maven-exemple-master
       run: mvn clean package
